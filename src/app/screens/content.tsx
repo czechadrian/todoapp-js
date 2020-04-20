@@ -11,7 +11,7 @@ export const Content: FunctionComponent = () => {
   const { formatMessage: f } = useIntl();
 
   const Grid = styled(Container)`
-    justify-content: space-between;
+    justify-content: center;
     flex-direction: row;
     display: flex;
     margin: 0 100px;
@@ -28,7 +28,7 @@ export const Content: FunctionComponent = () => {
     <Grid>
       <Col>
         <ListGroup>
-          <Label>Todo tasks</Label>
+          <Label>{f({ id: "todo" })}</Label>
           {getTasks.map(
             (task: any) =>
               task.type === "todo" && <ListGroupItem>{task.name}</ListGroupItem>
@@ -37,8 +37,7 @@ export const Content: FunctionComponent = () => {
       </Col>
       <Col>
         <ListGroup>
-          <Label>Done tasks</Label>
-
+          <Label>{f({ id: "done" })}</Label>
           {getTasks.map(
             (task: any) =>
               task.type === "done" && <ListGroupItem>{task.name}</ListGroupItem>
