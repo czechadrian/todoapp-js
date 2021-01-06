@@ -11,7 +11,7 @@
     "@types/react-redux": "^7.1.7",
     "@types/redux-thunk": "^2.1.0",
     "@types/styled-components": "^5.0.1",
-    "axios": "^0.19.2",
+    "axios": "^0.21.1",
     "body-parser": "^1.19.0",
     "bootstrap": "^4.4.1",
     "connect-pause": "^0.1.0",
