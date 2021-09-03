@@ -19,7 +19,7 @@
     "cra-template-typescript": "1.0.2",
     "express": "^4.17.1",
     "http-proxy-middleware": "^1.0.3",
-    "immer": "^6.0.3",
+    "immer": "^9.0.6",
     "lodash": "^4.17.15",
     "prettier": "^2.0.2",
     "query-string": "^6.12.1",
